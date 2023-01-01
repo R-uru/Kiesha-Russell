@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #45394f;
+}
+.Kiesha {
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  background: #000;
+  /*background-image: url(Ashley.jpg);*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 230px;
+  height: 230px;
+}
+.container {
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  /*border: 1px solid red;*/
+  background-image: url(music.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 275px;
+  height: 500px;
+}
+p {
+  width: 230px;
+  height: 230px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  font-size: 3px;
+  margin: 0;
+  padding: 0;
+  line-height: 8px;
+  text-align: justify;
+  background: url(Kiesha.jpg);
+  /*-webkit-background-size: contain;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(225, 225, 255,0);
+}
